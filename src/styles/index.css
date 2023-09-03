@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: "Yekan !important";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.custom-card .ant-card-head-title {
+  overflow: visible; /* Prevent title truncation */
+}
+.ant-card-meta-description{
+  color: black !important;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.price-text{
+  color: red !important;
+  font-weight: 600;
+  font-size: 20px;
+}
+.basket-btn {
+  height: 34px;
+  background-color: #F7F7F7;
+  border-radius: 20px;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+.centered-content {
+  text-align: left; 
+}
+
+@font-face {
+  font-family: 'Yekan';
+  src: url('../assets/fonts/Yekan.eot'),
+  url('../assets/fonts/Yekan.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  height: 138px;
+  width: 1440px;
+  background-color: white;
+}
+.category-card{
+  background-color: "#DDDDDD";
+  text-align:center;
+  max-width: 640;
+  border-radius:10;
+}
+.footer-rights{
+  padding: 30px;
+  font-weight: 30px;
+  font-size: 16;
+  text-align: center 
+}
+
+.footer-container{
+  max-width: 1440px;
+  min-height: 235px;
+  background-color: white;
+  margin-left: auto;
+  margin-right:  auto;
+  padding: 30px
+}
+.content{
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto 
+}
